@@ -11,6 +11,10 @@
 		9595D55D254173AC00E28B32 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9595D55C254173AC00E28B32 /* ContentView.swift */; };
 		9595D55F254173AE00E28B32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9595D55E254173AE00E28B32 /* Assets.xcassets */; };
 		9595D562254173AE00E28B32 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9595D561254173AE00E28B32 /* Preview Assets.xcassets */; };
+		9595D56B25417B9900E28B32 /* LineGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9595D56A25417B9900E28B32 /* LineGraph.swift */; };
+		9595D56E25417BD600E28B32 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9595D56D25417BD600E28B32 /* Utils.swift */; };
+		9595D5712541874F00E28B32 /* ChartLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9595D5702541874F00E28B32 /* ChartLoader.swift */; };
+		9595D5742541877200E28B32 /* ChartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9595D5732541877200E28B32 /* ChartViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		9595D55E254173AE00E28B32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9595D561254173AE00E28B32 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9595D563254173AE00E28B32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9595D56A25417B9900E28B32 /* LineGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineGraph.swift; sourceTree = "<group>"; };
+		9595D56D25417BD600E28B32 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		9595D5702541874F00E28B32 /* ChartLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartLoader.swift; sourceTree = "<group>"; };
+		9595D5732541877200E28B32 /* ChartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +65,10 @@
 				9595D55E254173AE00E28B32 /* Assets.xcassets */,
 				9595D563254173AE00E28B32 /* Info.plist */,
 				9595D560254173AE00E28B32 /* Preview Content */,
+				9595D56A25417B9900E28B32 /* LineGraph.swift */,
+				9595D56D25417BD600E28B32 /* Utils.swift */,
+				9595D5702541874F00E28B32 /* ChartLoader.swift */,
+				9595D5732541877200E28B32 /* ChartViewModel.swift */,
 			);
 			path = HowToDrawStockChartsInSwiftUI;
 			sourceTree = "<group>";
@@ -139,7 +151,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9595D55D254173AC00E28B32 /* ContentView.swift in Sources */,
+				9595D56B25417B9900E28B32 /* LineGraph.swift in Sources */,
+				9595D5712541874F00E28B32 /* ChartLoader.swift in Sources */,
+				9595D5742541877200E28B32 /* ChartViewModel.swift in Sources */,
 				9595D55B254173AC00E28B32 /* HowToDrawStockChartsInSwiftUIApp.swift in Sources */,
+				9595D56E25417BD600E28B32 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
